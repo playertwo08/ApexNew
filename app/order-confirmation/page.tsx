@@ -1,0 +1,1 @@
+import type{Metadata}from"next";import{OrderConfirmation}from"@/components/order-confirmation";export const metadata:Metadata={title:"Mock order confirmation"};export default function Page(){return <main id="main-content"><OrderConfirmation/></main>}
